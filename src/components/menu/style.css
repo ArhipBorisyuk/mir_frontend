@@ -1,0 +1,56 @@
+.menu-wrapper{
+    display: grid;
+}
+
+.menu-container {
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+    justify-self: end;
+    width: 15%;
+    height: 100%;
+    background-color: black;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.menu-button{
+    text-decoration: none;
+    color:aliceblue;
+    background: none;
+    border: none;
+    text-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.menu-button > button{
+    width: fit-content;
+}
+
+.menu-button:hover {
+    color: #FFA500	;
+}
+
+.menu-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.menu-button-exit-container{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-left: auto;
+    width: 100%;
+}

@@ -4,7 +4,7 @@ import {PageAuth} from "./components/pages/page-auth";
 import {PageReg} from "./components/pages/page-reg";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { PageNotFound } from './components/pages/page-not-found';
-import { PageProfile } from './components/pages/page-profile';
+import { PageProfile } from './components/pages/page-profile/index.jsx';
 
 export const Navigation = () =>
 {

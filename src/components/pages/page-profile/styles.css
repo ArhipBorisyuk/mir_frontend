@@ -1,4 +1,51 @@
-h1{
-    color: black;
-    text-align: center;
+.PageWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row1 {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-3 {
+    width: 33%;
+}
+
+.col-10 {
+    width: 100%;
+}
+
+.change_button{
+    text-decoration: none;
+    color:black;
+    background: none;
+    border: none;
+    margin-right: 10px;
+    margin-left: auto;
+    text-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 50px;
+    font-weight: 900;
+}
+.change_button > button{
+    width: fit-content;
+    padding: 0.5%;
+}
+.change_button-container{
+
+}
+.change_button:hover {
+    color: #FFA500	;
 }
